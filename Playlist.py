@@ -3,13 +3,12 @@ from Song import Song
 class Playlist:
   def __init__(self):
     self.__first_song = None
-
+    self.playlist = list()
 
   # TODO: Create a method called add_song that creates a Song object and adds it to the playlist. This method has one parameter called title.
 
   def add_song(self, title):
-    pass
-
+    self.playlist.append(Song)
 
 
   # TODO: Create a method called find_song that searches for whether a song exits in the playlist and returns its index.
